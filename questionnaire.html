@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>yutennis</title>
+    
+    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/helpers.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/questionnaire.css" />
+    <link rel="stylesheet" href="calendar/jquery-ui.css" />
+    <link rel="stylesheet" href="calendar/jquery-ui.structure.css" />
+    <link rel="stylesheet" href="calendar/jquery-ui.theme.css" />
+    <link rel="stylesheet" href="select/select2.css" />
+    <!--
+    <link type="text/less" rel="stylesheet" href="css/colors.less" />
+    <link type="text/less" rel="stylesheet" href="css/helpers.less" />
+    <link type="text/less" rel="stylesheet" href="css/base.less" />
+    <link type="text/less" rel="stylesheet" href="css/questionnaire.less" />
+    -->
+    
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="js/application.js"></script>
+    <script src="js/less.min.js"></script>
+    <script src="js/jquery.ezmark.js"></script>
+    <script src="select/select2.js"></script>
+    <script src="calendar/jquery-ui.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $( ".datepicker" ).datepicker({
+          dateFormat: 'MM d, yy',
+          changeMonth: true,
+          changeYear: true,
+          showButtonPanel: true
+	    });
+	  });
+    </script>
+    <script type="text/javascript">
+	  $(document).ready(function() {
+        $('.questionnaire_form .radios').ezMark();
+        $('.questionnaire_form .cheboxes').ezMark();
+        $(".selects").select2({
+		  minimumResultsForSearch: -1
+		});
+	  });
+    </script>
+    
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="js/html5shiv.js"></script>
+    <![endif]-->
+    
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    
+    <div class="wrapper">
+      
+      <!-- header -->
+      <header class="header">
+        <div class="userbar">
+          <div class="centered">
+            <div class="lang_block">
+              <a href="#lang" title="">Eng</a>
+            </div>
+            
+            <div class="quick_search">
+              <form name="" id="" action="" method="">
+                <input type="text" name="" id="" value="" class="field" placeholder="Поиск" />
+                <input type="submit" name="" id="" value="" class="button" />
+              </form>
+            </div>
+            
+            <div class="auth_block">
+              <div class="not_logged">
+                <a href="#" title="" class="login_link">Вход</a>
+                &nbsp;|&nbsp;
+                <a href="#" title="">Регистрация</a>
+              </div>
+            </div>
+            <div class="clear_both"></div>
+          </div>
+        </div>
+        
+        <div class="centered">
+          <div class="logo">
+            <img src="img/logo.png" alt="" title="" usemap="#logomap" />
+            <map name="logomap" id="">
+              <area href="index.html" alt="" title="" shape="poly" coords="1,100,7,72,20,47,43,22,64,8,88,0,101,1,113,7,119,16,122,28,122,40,119,55,248,58,248,111,78,111,70,119,56,126,42,131,30,132,17,129,7,121,3,113" />
+            </map>
+          </div>
+          
+          <div class="site_label">
+            СПОРТИВНОЕ АГЕНТСТВО<br />ЮЛИИ БЕЙГЕЛЬЗИМЕР
+          </div>
+          
+          <div class="contact_info">
+            <div class="socials">
+              <a href="#" title="" class="vk"></a>
+              <a href="#" title="" class="twitter"></a>
+              <a href="#" title="" class="google_plus"></a>
+              <a href="#" title="" class="fb"></a>
+            </div>
+            
+            <p class="phone">+38 (066) 774-73-52<br />+38 (066) 774-73-52</p>
+            <div class="clear_both"></div>
+          </div>
+        </div>
+        
+        <nav class="navigation">
+          <ul>
+            <li>
+              <a href="#" title="">Об агенстве</a>
+              <div class="subnav">
+                <a href="about_us.html" title="">Кто мы?</a>
+                <a href="#" title="">Команда</a>
+                <a href="#" title="">Концепция</a>
+              </div>
+            </li>
+            <li>
+              <a href="services.html" title="">Услуги</a>
+            </li>
+            <li>
+              <a href="news.html" title="">Новости</a>
+            </li>
+            <li>
+              <a href="for_athletes.html" title="">Спортсменам</a>
+              <div class="subnav">
+                <a href="for_athletes_pro.html" title="">Профессиональный теннис</a>
+                <a href="#" title="">Юношеский теннис</a>
+                <a href="#" title="">Любительский теннис</a>
+              </div>
+            </li>
+            <li>
+              <a href="for_sponsors.html" title="">Спонсорам</a>
+            </li>
+            <li>
+              <a href="contacts.html" title="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      
+      <!-- content-->
+      <div class="content_block">
+        
+        <div class="content">
+          
+          <div class="questionnaire_wrapper">
+            <div class="questionnaire_form">
+              <form nam="" id="" action="" method="">
+                <h1 class="form_caption">Анкета спортсмена</h1>
+                
+                <div class="error_notice">
+                  Пожалуйста, заполните все поля
+                </div>
+                
+                <div class="form_fields">
+                  <div class="left_fields">
+                    <div class="field_block">
+                      <label for="" class="labels">Имя *</label>
+                      <input type="text" name="" id="" value="" class="inputs error" placeholder="" />
+                    </div>
+                    <div class="field_block">
+                      <label for="" class="labels">Фамилия *</label>
+                      <input type="text" name="" id="" value="" class="inputs" placeholder="" />
+                    </div>
+                    <div class="field_block">
+                      <label for="" class="labels">Дата рождения</label>
+                      <input type="text" name="" id="" value="" class="inputs datepicker" placeholder="" />
+                    </div>
+                    <div class="field_block">
+                      <div class="labels">Пол *</div>
+                      <div class="radios_block">
+                        <label for="male" class="answer">
+                          <input type="radio" name="sex" id="male" value="" class="radios" />
+                          <span class="labels">мужской</span>
+                        </label>
+                        <label for="female" class="">
+                          <input type="radio" name="sex" id="female" value="" class="radios" />
+                          <span class="labels">женский</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="field_block">
+                      <div class="labels">Вы правша или левша? *</div>
+                      <div class="radios_block">
+                        <label for="right_hander" class="answer">
+                          <input type="radio" name="hand" id="right_hander" value="" class="radios" />
+                          <span class="labels">правая</span>
+                        </label>
+                        <label for="left_hander" class="">
+                          <input type="radio" name="hand" id="left_hander" value="" class="radios" />
+                          <span class="labels">левая</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="field_block">
+                      <label for="" class="labels">Место в классификации в <br />настоящий момент (укажите о какой классификации идет речь)</label>
+                      <textarea name="" id="" class="textareas" placeholder=""></textarea>
+                    </div>
+                    <div class="field_block">
+                      <label for="" class="labels">В каком возрасте Вы начали заниматься теннисом?</label>
+                      <div class="select_block">
+                        <select name="" id="" title="&nbsp;" class="selects">
+                          <option>16</option>
+                          <option selected>17</option>
+                          <option>18</option>
+                          <option>19</option>
+                          <option>20</option>
+                          <option>21</option>
+                          <option>22</option>
+                          <option>23</option>
+                        </select>
+                      </div>
+                      <span class="sub_label">лет</span>
+                      <div class="clear_both"></div>
+                    </div>
+                    <div class="field_block">
+                      <label for="" class="labels">Где Вы начали заниматься тенисом?</label>
+                      <input type="text" name="" id="" value="" class="inputs" placeholder="" />
+                    </div>
+                    <div class="field_block">
+                      <label for="" class="labels">Укажите имя и фамилию Вашего первого тренера</label>
+                      <input type="text" name="" id="" value="" class="inputs" placeholder="" />
+                    </div>
+                    <div class="field_block">
+                      <label for="" class="labels">Где Вы живете (страна, город)? *</label>
+                      <input type="text" name="" id="" value="" class="inputs" placeholder="" />
+                    </div>
+                    <div class="field_block">
+                      <label for="" class="labels">Укажите место (город, клуб) где Вы сейчас тренируетесь *</label>
+                      <textarea name="" id="" class="textareas small_textarea" placeholder=""></textarea>
+                    </div>
+                    <div class="field_block">
+                      <label for="" class="labels">Как давно Вы тренируетесь в этом месте?</label>
+                      <input type="text" name="" id="" value="" class="inputs" placeholder="" />
+                    </div>
+                  </div>
+                  
+                  <div class="right_fields">
+                    <div class="field_block">
+                      <label for="" class="labels">Укажите имя и фамилию вашего тренера</label>
+                      <input type="text" name="" id="" value="" class="inputs" placeholder="" />
+                    </div>
+                    <div class="field_block">
+                      <label for="" class="labels">Расскажите о своих основных достижениях в теннисе</label>
+                      <textarea name="" id="" class="textareas" placeholder=""></textarea>
+                    </div>
+                    <div class="field_block">
+                      <label for="" class="labels">Какие задачи Вы ставите перед собой в теннисе? Чего бы Вам хотелось добиться в карьере? * </label>
+                      <textarea name="" id="" class="textareas" placeholder=""></textarea>
+                    </div>
+                    <div class="field_block">
+                      <label for="" class="labels">Дополнительная информация: если Вы хотите добавить о себе еще что-то, чего не охватили наши вопросы, напишите это здесь</label>
+                      <textarea name="" id="" class="textareas" placeholder=""></textarea>
+                    </div>
+                    <div class="field_block">
+                      <label for="" class="labels">Какой вид спонсорской помощи Вас интересует?</label>
+                      <textarea name="" id="" class="textareas small_textarea" placeholder=""></textarea>
+                    </div>
+                    <div class="field_block">
+                      <label for="" class="labels">Контактный телефон *</label>
+                      <span class="phone_text">+</span><input type="text" name="" id="" value="" class="inputs phone_field" placeholder="международный формат" />
+                    </div>
+                    <div class="field_block">
+                      <label for="" class="labels">E-mail *</label>
+                      <input type="text" name="" id="" value="" class="inputs" placeholder="" />
+                    </div>
+                    <div class="field_block">
+                      <label for="" class="labels">Ваше фото</label>
+                      <div class="upload_photo">
+                        <span class="file_field">
+                          Загрузить
+                          <input type="file" name="" id="" value="Выбрать" class="file_input" />
+                        </span>
+                        <span class="file_name"></span>
+                        <div class="clear_both"></div>
+                      </div>
+                    </div>
+                    <div class="bottom_row">
+                      <label class="user_agreement not_agree">
+                        <span class="label">Я прочитал и принимаю условия <a href="#" title="">пользовательского соглашения</a></span>
+                        <input type="checkbox" name="" id="" value="" class="cheboxes" />
+                      </label>
+                      <input type="submit" name="" id="" value="Сохранить анкету" class="buttons" />
+                    </div>
+                  </div>
+                  <div class="clear_both"></div>
+                </div>
+              </form>
+            </div>
+          </div>
+          
+          <div class="download_questionnaire">
+            <a href="#" title="">Загрузить анкету на свой компьютер</a>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+    
+    <!-- footer -->
+    <footer class="footer">
+      <div class="centered">
+        <div class="copyright">
+          Все права защищены &copy;&nbsp;2014-2015 Yu Tennis
+        </div>
+        
+        <div class="designed_by">
+          Сделанно в
+          <a href="#" title=""><img src="img/fresh_logo.png" alt="" title="" /></a>
+        </div>
+        <div class="clear_both"></div>
+      </div>
+    </footer>
+    
+  </body>
+</html>

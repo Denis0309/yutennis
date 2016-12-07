@@ -1,0 +1,389 @@
+.page_title img {
+  margin-top: 15px;
+}
+.services_categories {
+  text-align: center;
+}
+.services_categories .category {
+  display: inline-table;
+  width: 212px;
+  margin: 0px 10px 35px 10px;
+  font-size: 36px;
+  line-height: 1.2em;
+  font-family: 'monitoricaregular', Arial, sans-serif;
+  text-decoration: none;
+  color: #393f39;
+}
+.services_categories .category img {
+  display: block;
+  position: relative;
+  width: 208px;
+  height: 208px;
+  margin: 0px auto 5px auto;
+  border: 2px solid #FFFFFF;
+  -webkit-border-radius: 106px 106px 106px 106px;
+  -moz-border-radius: 106px 106px 106px 106px;
+  border-radius: 106px 106px 106px 106px;
+}
+.services_categories .category img img {
+  display: block;
+  width: inherit;
+  height: inherit;
+  -webkit-border-radius: 106px 106px 106px 106px;
+  -moz-border-radius: 106px 106px 106px 106px;
+  border-radius: 106px 106px 106px 106px;
+}
+.services_categories .category .title {
+  display: block;
+  width: inherit;
+  text-align: center;
+  white-space: nowrap;
+}
+.services_categories .category .description {
+  display: block;
+  width: inherit;
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 1.2em;
+  font-family: 'open_sansregular', Tahoma, sans-serif;
+  text-align: center;
+}
+.service_category .page_title {
+  padding-left: 20px;
+}
+.service_category .body {
+  float: left;
+  width: 421px;
+  margin-top: -20px;
+  padding-left: 20px;
+}
+.service_category .body .caption {
+  padding-bottom: 45px;
+  font-size: 36px;
+  line-height: 1.2em;
+  font-family: 'monitoricaregular', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.service_category .services {
+  float: right;
+  width: 382px;
+  margin-top: -126px;
+  padding: 28px 34px;
+  font-size: 16px;
+  line-height: 1.2em;
+  border-width: 3px;
+  border-style: solid;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+}
+.service_category .services .caption {
+  padding-bottom: 45px;
+  font-size: 36px;
+  line-height: 1.2em;
+  font-family: 'monitoricaregular', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 34px;
+}
+.service_category .services ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.service_category .services ul li {
+  position: relative;
+  min-height: 20px;
+  margin: 0px 0px 16px 2px;
+  padding-left: 20px;
+}
+.service_category .services ul li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
+}
+.service_category .services .read_more {
+  padding-top: 15px;
+  text-align: right;
+}
+.service_category .services .read_more a {
+  display: inline-block;
+  width: 194px;
+  height: 30px;
+  padding-top: 8px;
+  font-size: 18px;
+  line-height: 1.2em;
+  font-family: Tahoma, Arial, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: #393f39;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+.service_category .practice {
+  border-color: #E1F4E4;
+  background: #E1F4E4 none;
+}
+.service_category .practice li:before {
+  background-position: -160px -72px;
+}
+.service_category .practice .read_more a {
+  background: #69B977 none;
+}
+.service_category .travel {
+  border-color: #DEEFF2;
+  background: #DEEFF2 none;
+}
+.service_category .travel li:before {
+  background-position: -160px -103px;
+}
+.service_category .travel .read_more a {
+  background: #62C2D0 none;
+}
+.service_category .health {
+  border-color: #EEF2D3;
+  background: #EEF2D3 none;
+}
+.service_category .health li:before {
+  background-position: -160px -134px;
+}
+.service_category .health .read_more a {
+  background: #AEC90B none;
+}
+.service_category .management {
+  border-color: #E0E8F3;
+  background: #E0E8F3 none;
+}
+.service_category .management li:before {
+  background-position: -160px -165px;
+}
+.service_category .management .read_more a {
+  background: #8AACDB none;
+}
+.service_category .fitness {
+  border-color: #F4E9DF;
+  background: #F4E9DF none;
+}
+.service_category .fitness li:before {
+  background-position: -160px -196px;
+}
+.service_category .fitness .read_more a {
+  background: #F2933E none;
+}
+.service_category .mental {
+  border-color: #F0DFEC;
+  background: #F0DFEC none;
+}
+.service_category .mental li:before {
+  background-position: -160px -257px;
+}
+.service_category .mental .read_more a {
+  background: #CE94C1 none;
+}
+.service_category .event {
+  border-color: #FBF8D3;
+  background: #FBF8D3 none;
+}
+.service_category .event li:before {
+  background-position: -160px -227px;
+}
+.service_category .event .read_more a {
+  background: #FFEC00 none;
+}
+.services_practice_page .contact_info .vk:hover {
+  background-position: -36px -62px !important;
+}
+.services_practice_page .contact_info .twitter:hover {
+  background-position: -67px -62px !important;
+}
+.services_practice_page .contact_info .google_plus:hover {
+  background-position: -98px -62px !important;
+}
+.services_practice_page .contact_info .fb:hover {
+  background-position: -129px -62px !important;
+}
+.services_practice_page .navigation {
+  border-bottom: 1px solid #526549;
+  background: #69B977;
+}
+.services_practice_page .navigation ul {
+  border-left: 1px solid #526549;
+  border-right: 1px solid #A9E3A6;
+}
+.services_practice_page .navigation li {
+  border-left: 1px solid #A9E3A6;
+  border-right: 1px solid #526549;
+}
+.services_practice_page .service_block .bottom_row a {
+  background: #69B977 none;
+}
+.services_travel_page .contact_info .vk:hover {
+  background-position: -36px -93px !important;
+}
+.services_travel_page .contact_info .twitter:hover {
+  background-position: -67px -93px !important;
+}
+.services_travel_page .contact_info .google_plus:hover {
+  background-position: -98px -93px !important;
+}
+.services_travel_page .contact_info .fb:hover {
+  background-position: -129px -93px !important;
+}
+.services_travel_page .navigation {
+  border-bottom: 1px solid #3A6369;
+  background: #62C2D0;
+}
+.services_travel_page .navigation ul {
+  border-left: 1px solid #3A6369;
+  border-right: 1px solid #95E7F5;
+}
+.services_travel_page .navigation li {
+  border-left: 1px solid #95E7F5;
+  border-right: 1px solid #3A6369;
+}
+.services_travel_page .service_block .bottom_row a {
+  background: #62C2D0 none;
+}
+.services_health_page .contact_info .vk:hover {
+  background-position: -36px -124px !important;
+}
+.services_health_page .contact_info .twitter:hover {
+  background-position: -67px -124px !important;
+}
+.services_health_page .contact_info .google_plus:hover {
+  background-position: -98px -124px !important;
+}
+.services_health_page .contact_info .fb:hover {
+  background-position: -129px -124px !important;
+}
+.services_health_page .navigation {
+  border-bottom: 1px solid #757E2B;
+  background: #AEC90B;
+}
+.services_health_page .navigation ul {
+  border-left: 1px solid #757E2B;
+  border-right: 1px solid #E0F05C;
+}
+.services_health_page .navigation li {
+  border-left: 1px solid #E0F05C;
+  border-right: 1px solid #757E2B;
+}
+.services_health_page .service_block .bottom_row a {
+  background: #AEC90B none;
+}
+.services_management_page .contact_info .vk:hover {
+  background-position: -36px -155px !important;
+}
+.services_management_page .contact_info .twitter:hover {
+  background-position: -67px -155px !important;
+}
+.services_management_page .contact_info .google_plus:hover {
+  background-position: -98px -155px !important;
+}
+.services_management_page .contact_info .fb:hover {
+  background-position: -129px -155px !important;
+}
+.services_management_page .navigation {
+  border-bottom: 1px solid #445871;
+  background: #8AACDB;
+}
+.services_management_page .navigation ul {
+  border-left: 1px solid #445871;
+  border-right: 1px solid #A5CFFF;
+}
+.services_management_page .navigation li {
+  border-left: 1px solid #A5CFFF;
+  border-right: 1px solid #445871;
+}
+.services_management_page .service_block .bottom_row a {
+  background: #8AACDB none;
+}
+.services_fitness_page .contact_info .vk:hover {
+  background-position: -36px -186px !important;
+}
+.services_fitness_page .contact_info .twitter:hover {
+  background-position: -67px -186px !important;
+}
+.services_fitness_page .contact_info .google_plus:hover {
+  background-position: -98px -186px !important;
+}
+.services_fitness_page .contact_info .fb:hover {
+  background-position: -129px -186px !important;
+}
+.services_fitness_page .navigation {
+  border-bottom: 1px solid #946B43;
+  background: #F2933E;
+}
+.services_fitness_page .navigation ul {
+  border-left: 1px solid #946B43;
+  border-right: 1px solid #FFC8AE;
+}
+.services_fitness_page .navigation li {
+  border-left: 1px solid #FFC8AE;
+  border-right: 1px solid #946B43;
+}
+.services_fitness_page .service_block .bottom_row a {
+  background: #F2933E none;
+}
+.services_mental_page .contact_info .vk:hover {
+  background-position: -36px -248px !important;
+}
+.services_mental_page .contact_info .twitter:hover {
+  background-position: -67px -248px !important;
+}
+.services_mental_page .contact_info .google_plus:hover {
+  background-position: -98px -248px !important;
+}
+.services_mental_page .contact_info .fb:hover {
+  background-position: -129px -248px !important;
+}
+.services_mental_page .navigation {
+  border-bottom: 1px solid #6A576D;
+  background: #CE94C1;
+}
+.services_mental_page .navigation ul {
+  border-left: 1px solid #6A576D;
+  border-right: 1px solid #D2B4D8;
+}
+.services_mental_page .navigation li {
+  border-left: 1px solid #D2B4D8;
+  border-right: 1px solid #6A576D;
+}
+.services_mental_page .service_block .bottom_row a {
+  background: #CE94C1 none;
+}
+.services_event_page .contact_info .vk:hover {
+  background-position: -36px -217px !important;
+}
+.services_event_page .contact_info .twitter:hover {
+  background-position: -67px -217px !important;
+}
+.services_event_page .contact_info .google_plus:hover {
+  background-position: -98px -217px !important;
+}
+.services_event_page .contact_info .fb:hover {
+  background-position: -129px -217px !important;
+}
+.services_event_page .navigation {
+  border-bottom: 1px solid #928428;
+  background: #FFEC00;
+}
+.services_event_page .navigation ul {
+  border-left: 1px solid #928428;
+  border-right: 1px solid #FFF4D9;
+}
+.services_event_page .navigation li {
+  border-left: 1px solid #FFF4D9;
+  border-right: 1px solid #928428;
+}
+.services_event_page .service_block .bottom_row a {
+  background: #FFEC00 none;
+}

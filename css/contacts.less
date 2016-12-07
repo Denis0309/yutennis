@@ -1,0 +1,84 @@
+@import (reference) "base.less";
+
+.contact_us {
+    .page_title {
+        margin-left: 32px;
+    }
+    .contact_info,
+    .contact_form {
+        width: 400px;
+        .font(24px, 1.2em);
+        font-family: 'monitoricaregular', Thahoma, sans-serif;
+        .note {
+            padding-bottom: 30px;
+            font-weight: bold;
+        }
+    }
+    .contact_info {
+        float: left;
+        margin-left: 32px;
+        .info_row {
+            padding-bottom: 20px;
+            a {
+                color: @dark_color;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .contact_form {
+        float: right;
+        margin-right: 32px;
+        .note {
+            padding-bottom: 27px;
+        }
+        .inputs {
+            width: 378px;
+            margin: 6px 0px;
+            color: @dark_color;
+            border: 1px solid #787878;
+            background: #FFFFFF none;
+        }
+        .textareas {
+            .inputs;
+            height: 162px;
+        }
+        .error {
+            border-color: #FF2626;
+            background: #FFFFFF none;
+        }
+        ::-webkit-input-placeholder {
+            color: @grey_color;
+        }
+        :-moz-placeholder {
+            color: @grey_color !important;
+        }
+        .placeholder {
+            color: @grey_color;
+        }
+        .buttons {
+            display: block;
+            float: right;
+        }
+        .error_notice {
+            height: 21px;
+            margin-top: -21px;
+            font-size: 18px;
+            line-height: 1.2em;
+            color: #ff2626;
+            text-align: left;
+        }
+    }
+}
+
+.contacts_form_popup {
+    .caption {
+        padding-top: 12px;
+        font-family: 'monitoricaregular', Thahoma, sans-serif;
+        .font(30px, 1.2em);
+        text-align: center;
+        color: @blue_color;
+    }
+}

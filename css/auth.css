@@ -1,0 +1,144 @@
+.registration_wrapper {
+  width: 100%;
+  min-height: 378px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: url(../img/registration_bg.png) 50% 50% no-repeat;
+  background-size: cover;
+}
+.registration_form {
+  width: 680px;
+  min-height: 287px;
+  margin: 0px auto;
+  padding: 30px 50px 23px 50px;
+  background: url(../img/transparent_black.png) 0px 0px repeat;
+}
+.registration_form .form_caption {
+  float: left;
+  width: 287px;
+  font-size: 40px;
+  line-height: 1.2em;
+  font-family: 'monitoricaregular', Thahoma, sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+}
+.registration_form .error_notice {
+  min-height: 21px;
+  margin-bottom: -21px;
+  font-size: 18px;
+  line-height: 1.2em;
+  color: #ff2626;
+}
+.registration_form .login_link {
+  float: right;
+  width: 277px;
+  margin-top: 12px;
+  font-size: 26px;
+  line-height: 1.2em;
+  font-family: 'monitoricaregular', Thahoma, sans-serif;
+  text-align: right;
+  color: #ffffff;
+}
+.registration_form .login_link a {
+  font-family: Tahoma, Arial, sans-serif;
+}
+.registration_form .form_fields {
+  margin-top: 32px;
+}
+.registration_form .left_fields {
+  float: left;
+  width: 287px;
+}
+.registration_form .right_fields {
+  float: right;
+  width: 287px;
+}
+.registration_form .inputs {
+  margin-bottom: 11px;
+}
+.registration_form .bottom_row {
+  margin-right: 0px;
+  padding-top: 18px;
+  text-align: right;
+}
+.login_wrapper {
+  width: 100%;
+  min-height: 378px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: url(../img/registration_bg.png) 50% 50% no-repeat;
+  background-size: cover;
+  min-height: 287px;
+}
+.login_form {
+  width: 680px;
+  margin: 0px auto;
+  padding: 30px 50px 23px 50px;
+  background: url(../img/transparent_black.png) 0px 0px repeat;
+  width: 287px;
+  min-height: 287px;
+  padding: 30px 75px 23px 75px;
+}
+.login_form .form_caption {
+  float: left;
+  width: 287px;
+  font-size: 40px;
+  line-height: 1.2em;
+  font-family: 'monitoricaregular', Thahoma, sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+}
+.login_form .error_notice {
+  min-height: 21px;
+  margin-bottom: -21px;
+  font-size: 18px;
+  line-height: 1.2em;
+  color: #ff2626;
+}
+.login_form .login_link {
+  float: right;
+  width: 277px;
+  margin-top: 12px;
+  font-size: 26px;
+  line-height: 1.2em;
+  font-family: 'monitoricaregular', Thahoma, sans-serif;
+  text-align: right;
+  color: #ffffff;
+}
+.login_form .login_link a {
+  font-family: Tahoma, Arial, sans-serif;
+}
+.login_form .form_fields {
+  margin-top: 32px;
+}
+.login_form .left_fields {
+  float: left;
+  width: 287px;
+}
+.login_form .right_fields {
+  float: right;
+  width: 287px;
+}
+.login_form .inputs {
+  margin-bottom: 11px;
+}
+.login_form .bottom_row {
+  margin-right: 0px;
+  padding-top: 18px;
+  text-align: right;
+}
+.login_form .form_caption {
+  float: none;
+}
+.login_form .not_registered {
+  font-size: 26px;
+  line-height: 1.2em;
+  font-family: 'monitoricaregular', Thahoma, sans-serif;
+  color: #ffffff;
+}
+.login_form .not_registered a {
+  float: right;
+}
+.login_form .bottom_row {
+  margin-right: 0px;
+}

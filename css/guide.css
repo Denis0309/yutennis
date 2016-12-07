@@ -1,0 +1,100 @@
+.guide_block .page_title {
+  padding-bottom: 60px;
+}
+.guide_block .left_side {
+  float: left;
+  width: 449px;
+}
+.guide_block .right_side {
+  float: right;
+  width: 440px;
+}
+.guide_block .caption {
+  padding-bottom: 35px;
+  font-size: 33px;
+  line-height: 1.2em;
+  font-family: 'monitoricaregular', Thahoma, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.guide_block .questions {
+  margin-top: 2px;
+}
+.guide_block .questions .question_block {
+  margin-bottom: 4px;
+}
+.guide_block .questions .question {
+  display: block;
+  width: 900px;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+  background: #626665 none;
+}
+.guide_block .questions .question:before {
+  content: "";
+  display: inline-block;
+  width: 21px;
+  height: 13px;
+  margin-right: 15px;
+  background: url(../img/icons.png) 0px -49px no-repeat;
+}
+.guide_block .questions .question:hover {
+  background: #C3C839 none;
+}
+.guide_block .questions .question:hover:before {
+  background-position: 0px -107px;
+}
+.guide_block .questions .answer {
+  display: none;
+  width: 910px;
+  padding: 15px 13px 0px 13px;
+  font-size: 16px;
+  line-height: 1.2em;
+  font-family: 'open_sansregular', Tahoma, sans-serif;
+  border: 2px solid #626665;
+  border-top: none;
+}
+.guide_block .questions .opened .question {
+  background: #C3C839 none;
+}
+.guide_block .questions .opened .question:before {
+  background-position: 0px -64px;
+}
+.guide_block .questions .opened .question:hover:before {
+  background-position: 0px -93px;
+}
+.guide_block .questions .opened .answer {
+  display: block;
+}
+.guide_block .questions .question {
+  width: 409px;
+  padding: 8px 20px;
+  font-size: 20px;
+  line-height: 1.2em;
+  font-family: 'monitoricaregular', Thahoma, sans-serif;
+}
+.guide_block .questions .answer {
+  width: 419px;
+}
+.guide_block .questions .question:hover:before {
+  background-position: 0px -107px;
+}
+.guide_block .questions .opened .question:hover:before {
+  background-position: 0px -93px;
+}
+.guide_block .services_categories_list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.guide_block .services_categories_list li {
+  padding-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.2em;
+}
+.guide_block .services_categories_list img {
+  height: 34px;
+  margin: 0px 15px -6px 0px;
+}

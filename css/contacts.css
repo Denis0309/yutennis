@@ -1,0 +1,84 @@
+.contact_us .page_title {
+  margin-left: 32px;
+}
+.contact_us .contact_info,
+.contact_us .contact_form {
+  width: 400px;
+  font-size: 24px;
+  line-height: 1.2em;
+  font-family: 'monitoricaregular', Thahoma, sans-serif;
+}
+.contact_us .contact_info .note,
+.contact_us .contact_form .note {
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+.contact_us .contact_info {
+  float: left;
+  margin-left: 32px;
+}
+.contact_us .contact_info .info_row {
+  padding-bottom: 20px;
+}
+.contact_us .contact_info .info_row a {
+  color: #393f39;
+  text-decoration: none;
+}
+.contact_us .contact_info .info_row a:hover {
+  text-decoration: underline;
+}
+.contact_us .contact_form {
+  float: right;
+  margin-right: 32px;
+}
+.contact_us .contact_form .note {
+  padding-bottom: 27px;
+}
+.contact_us .contact_form .inputs {
+  width: 378px;
+  margin: 6px 0px;
+  color: #393f39;
+  border: 1px solid #787878;
+  background: #FFFFFF none;
+}
+.contact_us .contact_form .textareas {
+  width: 378px;
+  margin: 6px 0px;
+  color: #393f39;
+  border: 1px solid #787878;
+  background: #FFFFFF none;
+  height: 162px;
+}
+.contact_us .contact_form .error {
+  border-color: #FF2626;
+  background: #FFFFFF none;
+}
+.contact_us .contact_form ::-webkit-input-placeholder {
+  color: #999999;
+}
+.contact_us .contact_form :-moz-placeholder {
+  color: #999999 !important;
+}
+.contact_us .contact_form .placeholder {
+  color: #999999;
+}
+.contact_us .contact_form .buttons {
+  display: block;
+  float: right;
+}
+.contact_us .contact_form .error_notice {
+  height: 21px;
+  margin-top: -21px;
+  font-size: 18px;
+  line-height: 1.2em;
+  color: #ff2626;
+  text-align: left;
+}
+.contacts_form_popup .caption {
+  padding-top: 12px;
+  font-family: 'monitoricaregular', Thahoma, sans-serif;
+  font-size: 30px;
+  line-height: 1.2em;
+  text-align: center;
+  color: #85bdcc;
+}

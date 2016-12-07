@@ -1,0 +1,55 @@
+@import (reference) "base.less";
+@import (reference) "for_athletes.less";
+
+.guide_block {
+    .page_title {
+        padding-bottom: 60px;
+    }
+    .left_side {
+        float: left;
+        width: 449px;
+    }
+    .right_side {
+        float: right;
+        width: 440px;
+    }
+    .caption {
+        .content_block > .page_title;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    .questions {
+        .faq_page;
+        margin-top: 2px;
+        .question {
+            width: 409px;
+            padding: 8px 20px;
+            .font(20px, 1.2em);
+            font-family: 'monitoricaregular', Thahoma, sans-serif;
+        }
+        .answer {
+            width: 419px;
+        }
+        .question:hover:before {
+            background-position: 0px -107px;
+        }
+        .opened {
+            .question:hover:before {
+                background-position: 0px -93px;
+            }
+        }
+    }
+    .services_categories_list {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        li {
+            padding-bottom: 20px;
+            .font(14px, 1.2em);
+        }
+        img {
+            height: 34px;
+            margin: 0px 15px -6px 0px;
+        }
+    }
+}

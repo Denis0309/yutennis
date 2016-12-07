@@ -1,0 +1,202 @@
+@import (reference) "base.less";
+
+.for_athletes {
+    .font(22px, 1.2em);
+    font-family: 'monitoricaregular', Thahoma, sans-serif;
+    .note {
+        padding-bottom: 30px;
+        p {
+            padding-bottom: 20px;
+        }
+    }
+    .questionnaire_link {
+        .buttons;
+        display: inline-block;
+        width: 194px;
+        height: 30px;
+        margin-left: 45px;
+        padding-top: 8px;
+        .font(18px, 1.2em);
+        font-family: Tahoma, Arial, sans-serif;
+    }
+    .nearest_tournaments {
+        padding-bottom: 15px;
+        .caption {
+            .content_block > .page_title;
+            padding-bottom: 30px;
+            font-weight: bold;
+        }
+        .tournaments {
+            margin: 0px -21px 0px -19px;
+            text-align: left;
+        }
+        .tournament {
+            display: inline-table;
+            width: 450px;
+            margin: 0px 19px 30px 19px;
+            .thumb {
+                float: left;
+                width: 200px;
+                height: 282px;
+                a, img {
+                    display: block;
+                    width: inherit;
+                    height: inherit;
+                }
+            }
+            .body {
+                float: left;
+                display: table;
+                width: 250px;
+                height: 282px;
+                background: #EFF0D4 none;
+            }
+            .row {
+                display: table-row;
+            }
+            .cell {
+                display: table-cell;
+                height: 131px;
+                padding: 5px 20px;
+                text-align: center;
+                vertical-align: middle;
+            }
+            p {
+                padding-bottom: 0px;
+            }
+            a {
+                text-decoration: none;
+                color: @dark_color;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            .title {
+                .font(26px, 1.1em);
+            }
+            .address {
+                padding-top: 5px;
+                .font(16px, 1.1em);
+            }
+            .date {
+                padding-bottom: 5px;
+                .font(18px, 1.1em);
+                b {
+                    display: block;
+                }
+            }
+            
+            .category {
+                .font(22px, 1.1em);
+            }
+        }
+    }
+    .useful_links {
+        text-align: center;
+        .caption {
+            .content_block > .page_title;
+            padding-bottom: 40px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .link {
+            display: inline-table;
+            width: 210px;
+            margin: 0px 30px 25px 30px;
+            .font(27px, 1.2em);
+            text-decoration: none;
+            color: @dark_color;
+            text-align: center;
+            img {
+                display: block;
+                width: 210px;
+                height: 210px;
+                border: 2px solid #FFFFFF;
+                .border_radius(212px, 212px, 212px, 212px);
+            }
+            .title {
+                display: block;
+                padding-top: 10px;
+            }
+        }
+    }
+}
+
+.links_page {
+    .font(16px, 1.2em);
+    font-family: 'open_sansregular', Tahoma, sans-serif;
+    ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    li {
+        margin: 0px;
+        padding: 0px 0px 20px 0px;
+        img {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            margin-right: 7px;
+            margin-bottom: -3px;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.faq_page {
+    .question_block {
+        margin-bottom: 4px;
+    }
+    .question {
+        display: block;
+        width: 900px;
+        padding: 18px 20px;
+        text-decoration: none;
+        font-weight: bold;
+        color: @white_color;
+        background: #626665 none;
+    }
+    .question:before {
+        content: "";
+        display: inline-block;
+        width: 21px;
+        height: 13px;
+        margin-right: 15px;
+        background: url(../img/icons.png) 0px -49px no-repeat;
+    }
+    .question:hover {
+        background: #C3C839 none;
+    }
+    .question:hover:before {
+        background-position: 0px -107px;
+    }
+    .answer {
+        display: none;
+        width: 910px;
+        padding: 15px 13px 0px 13px;
+        .font(16px, 1.2em);
+        font-family: 'open_sansregular', Tahoma, sans-serif;
+        border: 2px solid #626665;
+        border-top: none;
+    }
+    .opened {
+        .question {
+            background: #C3C839 none;
+        }
+        .question:before {
+            background-position: 0px -64px;
+        }
+        .question:hover:before {
+            background-position: 0px -93px;
+        }
+        .answer {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,223 @@
+.for_athletes {
+  font-size: 22px;
+  line-height: 1.2em;
+  font-family: 'monitoricaregular', Thahoma, sans-serif;
+}
+.for_athletes .note {
+  padding-bottom: 30px;
+}
+.for_athletes .note p {
+  padding-bottom: 20px;
+}
+.for_athletes .questionnaire_link {
+  outline: none;
+  cursor: pointer;
+  height: 38px;
+  padding: 0px;
+  font-weight: normal;
+  text-decoration: none;
+  text-align: center;
+  color: #393f39;
+  border: none;
+  background: #C3C839 none;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  display: inline-block;
+  width: 194px;
+  height: 30px;
+  margin-left: 45px;
+  padding-top: 8px;
+  font-size: 18px;
+  line-height: 1.2em;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.for_athletes .nearest_tournaments {
+  padding-bottom: 15px;
+}
+.for_athletes .nearest_tournaments .caption {
+  padding-bottom: 35px;
+  font-size: 33px;
+  line-height: 1.2em;
+  font-family: 'monitoricaregular', Thahoma, sans-serif;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+.for_athletes .nearest_tournaments .tournaments {
+  margin: 0px -21px 0px -19px;
+  text-align: left;
+}
+.for_athletes .nearest_tournaments .tournament {
+  display: inline-table;
+  width: 450px;
+  margin: 0px 19px 30px 19px;
+}
+.for_athletes .nearest_tournaments .tournament .thumb {
+  float: left;
+  width: 200px;
+  height: 282px;
+}
+.for_athletes .nearest_tournaments .tournament .thumb a,
+.for_athletes .nearest_tournaments .tournament .thumb img {
+  display: block;
+  width: inherit;
+  height: inherit;
+}
+.for_athletes .nearest_tournaments .tournament .body {
+  float: left;
+  display: table;
+  width: 250px;
+  height: 282px;
+  background: #EFF0D4 none;
+}
+.for_athletes .nearest_tournaments .tournament .row {
+  display: table-row;
+}
+.for_athletes .nearest_tournaments .tournament .cell {
+  display: table-cell;
+  height: 131px;
+  padding: 5px 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+.for_athletes .nearest_tournaments .tournament p {
+  padding-bottom: 0px;
+}
+.for_athletes .nearest_tournaments .tournament a {
+  text-decoration: none;
+  color: #393f39;
+}
+.for_athletes .nearest_tournaments .tournament a:hover {
+  text-decoration: underline;
+}
+.for_athletes .nearest_tournaments .tournament .title {
+  font-size: 26px;
+  line-height: 1.1em;
+}
+.for_athletes .nearest_tournaments .tournament .address {
+  padding-top: 5px;
+  font-size: 16px;
+  line-height: 1.1em;
+}
+.for_athletes .nearest_tournaments .tournament .date {
+  padding-bottom: 5px;
+  font-size: 18px;
+  line-height: 1.1em;
+}
+.for_athletes .nearest_tournaments .tournament .date b {
+  display: block;
+}
+.for_athletes .nearest_tournaments .tournament .category {
+  font-size: 22px;
+  line-height: 1.1em;
+}
+.for_athletes .useful_links {
+  text-align: center;
+}
+.for_athletes .useful_links .caption {
+  padding-bottom: 35px;
+  font-size: 33px;
+  line-height: 1.2em;
+  font-family: 'monitoricaregular', Thahoma, sans-serif;
+  padding-bottom: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.for_athletes .useful_links .link {
+  display: inline-table;
+  width: 210px;
+  margin: 0px 30px 25px 30px;
+  font-size: 27px;
+  line-height: 1.2em;
+  text-decoration: none;
+  color: #393f39;
+  text-align: center;
+}
+.for_athletes .useful_links .link img {
+  display: block;
+  width: 210px;
+  height: 210px;
+  border: 2px solid #FFFFFF;
+  -webkit-border-radius: 212px 212px 212px 212px;
+  -moz-border-radius: 212px 212px 212px 212px;
+  border-radius: 212px 212px 212px 212px;
+}
+.for_athletes .useful_links .link .title {
+  display: block;
+  padding-top: 10px;
+}
+.links_page {
+  font-size: 16px;
+  line-height: 1.2em;
+  font-family: 'open_sansregular', Tahoma, sans-serif;
+}
+.links_page ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.links_page li {
+  margin: 0px;
+  padding: 0px 0px 20px 0px;
+}
+.links_page li img {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 7px;
+  margin-bottom: -3px;
+}
+.links_page a {
+  text-decoration: none;
+}
+.links_page a:hover {
+  text-decoration: underline;
+}
+.faq_page .question_block {
+  margin-bottom: 4px;
+}
+.faq_page .question {
+  display: block;
+  width: 900px;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+  background: #626665 none;
+}
+.faq_page .question:before {
+  content: "";
+  display: inline-block;
+  width: 21px;
+  height: 13px;
+  margin-right: 15px;
+  background: url(../img/icons.png) 0px -49px no-repeat;
+}
+.faq_page .question:hover {
+  background: #C3C839 none;
+}
+.faq_page .question:hover:before {
+  background-position: 0px -107px;
+}
+.faq_page .answer {
+  display: none;
+  width: 910px;
+  padding: 15px 13px 0px 13px;
+  font-size: 16px;
+  line-height: 1.2em;
+  font-family: 'open_sansregular', Tahoma, sans-serif;
+  border: 2px solid #626665;
+  border-top: none;
+}
+.faq_page .opened .question {
+  background: #C3C839 none;
+}
+.faq_page .opened .question:before {
+  background-position: 0px -64px;
+}
+.faq_page .opened .question:hover:before {
+  background-position: 0px -93px;
+}
+.faq_page .opened .answer {
+  display: block;
+}

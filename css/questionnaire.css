@@ -1,0 +1,208 @@
+.questionnaire_wrapper {
+  width: 100%;
+  min-height: 1285px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background: url(../img/questionnaire_bg.png) 50% 50% no-repeat;
+  background-size: cover;
+}
+.questionnaire_form {
+  width: 680px;
+  min-height: 1199px;
+  margin: 0px auto;
+  padding: 30px 50px 30px 50px;
+  background: url(../img/transparent_black.png) 0px 0px repeat;
+}
+.questionnaire_form .form_caption {
+  margin-left: 0px;
+  font-size: 40px;
+  line-height: 1.2em;
+  font-family: 'monitoricaregular', Thahoma, sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+}
+.questionnaire_form .error_notice {
+  min-height: 21px;
+  margin-bottom: -21px;
+  font-size: 18px;
+  line-height: 1.2em;
+  color: #ff2626;
+}
+.questionnaire_form .form_fields {
+  margin-top: 32px;
+}
+.questionnaire_form .left_fields {
+  float: left;
+  width: 287px;
+}
+.questionnaire_form .right_fields {
+  float: right;
+  width: 287px;
+}
+.questionnaire_form .field_block {
+  margin-bottom: 11px;
+}
+.questionnaire_form .labels {
+  display: block;
+  padding-bottom: 3px;
+  font-size: 17px;
+  line-height: 1.2em;
+  color: #ffffff;
+}
+.questionnaire_form .textareas {
+  height: 99px;
+  line-height: 1.2em;
+}
+.questionnaire_form .small_textarea {
+  height: 66px;
+}
+.questionnaire_form .radios_block {
+  position: relative;
+  width: 287px;
+  height: 38px;
+  background: url(../img/transparent_white.png) 0px 0px repeat;
+}
+.questionnaire_form .radios_block label {
+  display: inline-block;
+  position: relative;
+  min-height: 14px;
+  margin: 8px 0px 0px 15px;
+  padding-right: 19px;
+  text-align: left;
+}
+.questionnaire_form .radios_block label .ez-radio {
+  left: auto;
+  right: 0px;
+  top: 4px;
+}
+.questionnaire_form .select_block {
+  float: left;
+  width: 55px;
+}
+.questionnaire_form .selects {
+  width: 55px;
+}
+.questionnaire_form .sub_label {
+  float: left;
+  margin-top: 3px;
+  padding-left: 7px;
+  color: #ffffff;
+}
+.questionnaire_form .phone_text {
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 32px;
+  padding-top: 8px;
+  padding-left: 8px;
+  font-size: 22px;
+  line-height: 1.2em;
+  color: #ffffff;
+}
+.questionnaire_form .phone_field {
+  width: 247px;
+  padding: 0px 10px 0px 28px;
+}
+.questionnaire_form .upload_photo .file_field {
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  width: 194px;
+  height: 38px;
+  padding: 0px;
+  font-size: 18px;
+  line-height: 1.2em;
+  font-family: Tahoma, Arial, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  text-align: center;
+  color: #393f39;
+  border: none;
+  background: #C3C839 none;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  float: left;
+  position: relative;
+  width: 128px;
+  height: 27px;
+  padding-top: 3px;
+  background: url(../img/transparent_white_plus.png) 0px 0px repeat;
+}
+.questionnaire_form .upload_photo .file_input {
+  outline: 0;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  width: 128px;
+  height: 30px;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.questionnaire_form .upload_photo .file_name {
+  overflow: hidden;
+  display: block;
+  float: left;
+  width: 149px;
+  height: 26px;
+  margin-left: 10px;
+  padding-top: 4px;
+  color: #ffffff;
+}
+.questionnaire_form .bottom_row {
+  text-align: right;
+}
+.questionnaire_form .user_agreement {
+  display: block;
+  position: relative;
+  width: 252px;
+  height: 48px;
+  margin: 8px 50px 0px 20px;
+  padding-left: 15px;
+  font-size: 0.9em;
+  line-height: 1.2em;
+  text-align: right;
+  color: #ffffff;
+}
+.questionnaire_form .user_agreement .ez-checkbox {
+  left: 0px;
+  top: 2px;
+}
+.questionnaire_form .not_agree {
+  color: #ff2626;
+}
+.questionnaire_form .not_agree a {
+  color: inherit;
+}
+.questionnaire_form .not_agree .ez-checkbox {
+  background-position: -30px 0px;
+}
+.download_questionnaire {
+  padding-top: 33px;
+  text-align: right;
+}
+.download_questionnaire a {
+  display: inline-block;
+  position: relative;
+  margin-right: 36px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #393f39;
+  background: url(../img/dash_bg.png) 0px 100% repeat-x;
+}
+.download_questionnaire a:hover {
+  background: none;
+}
+.download_questionnaire a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -8px;
+  right: -36px;
+  width: 36px;
+  height: 31px;
+  background: url(../img/download_icon.png) 0px 0px no-repeat;
+}

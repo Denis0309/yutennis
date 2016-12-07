@@ -1,0 +1,46 @@
+.who_we_are .left_side {
+  float: left;
+  width: 379px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  padding: 28px 34px;
+  font-size: 16px;
+  line-height: 1.2em;
+  background: #EEF2D3 none;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+}
+.who_we_are .left_side .caption {
+  padding-bottom: 45px;
+  font-size: 36px;
+  line-height: 1.2em;
+  font-family: 'monitoricaregular', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.who_we_are .right_side {
+  float: right;
+  width: 388px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  padding: 28px 34px;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+.who_we_are .right_side ul {
+  list-style: none;
+  margin-top: 11px;
+  padding-left: 0px;
+}
+.who_we_are .right_side li {
+  position: relative;
+  min-height: 20px;
+  margin: 0px 0px 22px 2px;
+  padding-left: 0px;
+  font-size: 14px;
+  line-height: 1.2em;
+}
+.who_we_are .right_side li img {
+  margin: 0px 20px -11px 0px;
+}

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>yutennis</title>
+    
+    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/helpers.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <!--
+    <link type="text/less" rel="stylesheet" href="css/colors.less" />
+    <link type="text/less" rel="stylesheet" href="css/helpers.less" />
+    <link type="text/less" rel="stylesheet" href="css/base.less" />
+    <link type="text/less" rel="stylesheet" href="css/home.less" />
+    <link type="text/less" rel="stylesheet" href="css/slider.less" />
+    -->
+    
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="js/application.js"></script>
+    <script src="js/less.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
+    <script type="text/javascript">
+	  $(function(){
+			if ($('.slides .slide').length > 1){
+				$('.slides').slidesjs({
+					play: {
+						active: true,
+						effect: "slide",
+						interval: 7000,
+						auto: false,
+                        swap: false,
+                        pauseOnHover: false,
+                        restartDelay: 2500
+					},
+					navigation: {
+        	        	active: true,
+    	            	effect: "slide"
+		        	},
+					pagination: {
+    	            	active: true,
+    	            	effect: "slide"
+		        	},
+					effect: {
+						fade: {
+							speed: 250,
+							crossfade: true
+						}
+					}
+				});
+			} else {
+				$(".slides").show();
+			};
+		});
+    </script>
+    
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="js/html5shiv.js"></script>
+    <![endif]-->
+    
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    
+    <div class="wrapper">
+      
+      <!-- header -->
+      <header class="header">
+        <div class="userbar">
+          <div class="centered">
+            <div class="lang_block">
+              <a href="#lang" title="">Eng</a>
+            </div>
+            
+            <div class="quick_search">
+              <form name="" id="" action="" method="">
+                <input type="text" name="" id="" value="" class="field" placeholder="Поиск" />
+                <input type="submit" name="" id="" value="" class="button" />
+              </form>
+            </div>
+            
+            <div class="auth_block">
+              <div class="not_logged">
+                <a href="login.html" title="" class="login_link">Вход</a>
+                &nbsp;|&nbsp;
+                <a href="registration.html" title="">Регистрация</a>
+              </div>
+            </div>
+            <div class="clear_both"></div>
+          </div>
+        </div>
+        
+        <div class="centered">
+          <div class="logo">
+            <img src="img/logo.png" alt="" title="" usemap="#logomap" />
+            <map name="logomap" id="">
+              <area href="index.html" alt="" title="" shape="poly" coords="1,100,7,72,20,47,43,22,64,8,88,0,101,1,113,7,119,16,122,28,122,40,119,55,248,58,248,111,78,111,70,119,56,126,42,131,30,132,17,129,7,121,3,113" />
+            </map>
+          </div>
+          
+          <div class="site_label">
+            СПОРТИВНОЕ АГЕНТСТВО<br />ЮЛИИ БЕЙГЕЛЬЗИМЕР
+          </div>
+          
+          <div class="contact_info">
+            <div class="socials">
+              <a href="#" title="" class="vk"></a>
+              <a href="#" title="" class="twitter"></a>
+              <a href="#" title="" class="google_plus"></a>
+              <a href="#" title="" class="fb"></a>
+            </div>
+            
+            <p class="phone">+38 (066) 774-73-52<br />+38 (066) 774-73-52</p>
+            <div class="clear_both"></div>
+          </div>
+        </div>
+        
+        <nav class="navigation">
+          <ul>
+            <li>
+              <a href="#" title="">Об агенстве</a>
+              <div class="subnav">
+                <a href="about_us.html" title="">Кто мы?</a>
+                <a href="#" title="">Команда</a>
+                <a href="about_conception.html" title="">Концепция</a>
+              </div>
+            </li>
+            <li>
+              <a href="services.html" title="">Услуги</a>
+            </li>
+            <li>
+              <a href="news.html" title="">Новости</a>
+            </li>
+            <li>
+              <a href="for_athletes.html" title="">Спортсменам</a>
+              <div class="subnav">
+                <a href="for_athletes_pro.html" title="">Профессиональный теннис</a>
+                <a href="#" title="">Юношеский теннис</a>
+                <a href="#" title="">Любительский теннис</a>
+              </div>
+            </li>
+            <li>
+              <a href="for_sponsors.html" title="">Спонсорам</a>
+            </li>
+            <li>
+              <a href="contacts.html" title="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      
+      <!-- content-->
+      <div class="content_block">
+        
+        <section class="slider_block">
+          <div class="slider_navigation_block">
+            <a href="javascript:void(0);" title="" class="slide_prev slider_navigation"></a>
+            <a href="javascript:void(0);" title="" class="slide_next slider_navigation"></a>
+          </div>
+          <div class="slides">
+            <a href="javascript:void(0);" title="" class="slidesjs-previous slidesjs-navigation"></a>
+            <a href="javascript:void(0);" title="" class="slidesjs-next slidesjs-navigation"></a>
+
+            <div class="slide" style="background-image: url(img/slide_01.jpg);">
+              <a href="#" title="" class="slide_link left_link"></a>
+              <a href="#" title="" class="slide_link right_link"></a>
+            </div>
+
+            <div class="slide" style="background-image: url(img/slide_02.jpg);">
+              <a href="#" title="" class="slide_link left_link"></a>
+              <a href="#" title="" class="slide_link right_link"></a>
+            </div>
+
+            <div class="slide" style="background-image: url(img/slide_03.jpg);">
+              <a href="#" title="" class="slide_link left_link"></a>
+              <a href="#" title="" class="slide_link right_link"></a>
+            </div>
+          </div>
+        </section>
+        
+        <div class="content">
+          
+          <div class="home_services">
+            <a href="#" title="" class="service">
+              <span class="thumb">
+                <img src="img/service_thumb_01.png" alt="" title="" />
+                <span class="info">
+                  <span class="text">
+                    Как ездить на турниры без лишних хлопот
+                  </span>
+                </span>
+              </span>
+              Yu-practice
+            </a>
+            
+            <a href="#" title="" class="service">
+              <span class="thumb">
+                <img src="img/service_thumb_02.png" alt="" title="" />
+                <span class="info">
+                  <span class="text">
+                    Как ездить на турниры без лишних хлопот
+                  </span>
+                </span>
+              </span>
+              Yu-fitness
+            </a>
+            
+            <a href="#" title="" class="service">
+              <span class="thumb">
+                <img src="img/service_thumb_03.png" alt="" title="" />
+                <span class="info">
+                  <span class="text">
+                    Как ездить на турниры без лишних хлопот
+                  </span>
+                </span>
+              </span>
+              Yu-health
+            </a>
+            
+            <a href="#" title="" class="service">
+              <span class="thumb">
+                <img src="img/service_thumb_04.png" alt="" title="" />
+                <span class="info">
+                  <span class="text">
+                    Как ездить на турниры без лишних хлопот
+                  </span>
+                </span>
+              </span>
+              Yu-mental
+            </a>
+            
+            <a href="#" title="" class="service">
+              <span class="thumb">
+                <img src="img/service_thumb_05.png" alt="" title="" />
+                <span class="info">
+                  <span class="text">
+                    Как ездить на турниры без лишних хлопот
+                  </span>
+                </span>
+              </span>
+              Yu-management
+            </a>
+            
+            <a href="#" title="" class="service">
+              <span class="thumb">
+                <img src="img/service_thumb_06.png" alt="" title="" />
+                <span class="info">
+                  <span class="text">
+                    Как ездить на турниры без лишних хлопот
+                  </span>
+                </span>
+              </span>
+              Yu-travel
+            </a>
+            
+            <a href="#" title="" class="service">
+              <span class="thumb">
+                <img src="img/service_thumb_07.png" alt="" title="" />
+                <span class="info">
+                  <span class="text">
+                    Как ездить на турниры без лишних хлопот
+                  </span>
+                </span>
+              </span>
+              Yu-event
+            </a>
+          </div>
+          
+        </div>
+        
+        <section class="home_links">
+          <ul>
+            <li>
+              <a href="#" title="">Юношеский теннис</a>
+            </li>
+            <li>
+              <a href="#" title="">Профессиональный теннис</a>
+            </li>
+            <li>
+              <a href="#" title="">Любительский теннис</a>
+            </li>
+            <li>
+              <a href="#" title="">Рейтинги</a>
+            </li>
+            <li>
+              <a href="#" title="">Календари</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      
+    </div>
+    
+    <!-- footer -->
+    <footer class="footer">
+      <div class="centered">
+        <div class="copyright">
+          Все права защищены &copy;&nbsp;2014-2015 Yu Tennis
+        </div>
+        
+        <div class="designed_by">
+          Сделанно в
+          <a href="#" title=""><img src="img/fresh_logo.png" alt="" title="" /></a>
+        </div>
+        <div class="clear_both"></div>
+      </div>
+    </footer>
+    
+  </body>
+</html>
